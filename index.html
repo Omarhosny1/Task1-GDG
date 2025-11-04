@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+</head>
+
+<body>
+    <!-- Header Section-->
+    <div style="text-align: center; color: rgb(67, 67, 191);">
+    <h1>John Doe Portfolio</h1>
+    <p>Professional Web Developer</p>
+    </div>
+
+    <!-- About Section-->
+    <div>
+    <h2 style="color: rgb(67, 67, 191);">About Me</h2>
+    <p>Hello! I'm John, a web Developer with about 1year of experience, I work with HTML5 and CSS3, enjoy using
+        Bootstrap to speed up UI work, and am building my javascript fundamentals to add interactivity. I'm eager to
+        learn, write clean code, and create user-friendly interface. <br> My journey in web development started during
+        my college year, and since then I've been continuously learning and adapting to new technologies. I believe in
+        writing clean, efficient code and creating user-friendly interface.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div>
+    <h2 style="background-color: rgb(197, 198, 239);">Skills</h2>
+    <ul>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">React.js</a></li>
+        <li><a href="#">Angular</a></li>
+    </ul>
+    </div>
+
+    <!-- Experience Section -->
+    <div>
+    <h2 style="color: rgb(67, 67, 191);">Experience Timeline</h2>
+    <table border="1" cellpadding="10" cellspacing="0" style="width: 100%;">
+        <caption>Professional Experience Overview</caption>
+
+        <!-- Header Row -->
+        <tr style="background-color: rgb(61, 61, 255); color: white;">
+            <th>Company</th>
+            <th>Logo</th>
+            <th>Role</th>
+            <th>Key Achievements</th>
+            <th>Dates</th>
+        </tr>
+
+        <!-- Body Row -->
+        <tr>
+            <td rowspan="2">TechCorp Solution</td>
+            <td rowspan="2"><img src="imgs/logo1.png" alt="logo1" width="100px"></td>
+            <td>Senior Full Stack Developer</td>
+            <td>
+                <ul>
+                    <li>Lead development of scalable application</li>
+                    <li>Mentor junior developers and ensure code quality</li>
+                    <li>Architect scalable backend services</li>
+                </ul>
+            </td>
+            <td>Jan 2023 - present</td>
+        </tr>
+        
+        <tr>
+            <td>Full Stack Developer</td>
+            <td>
+                <ul>
+                    <li>Level development of web applications</li>
+                    <li>Mentor peers and improve collaboration</li>
+                    <li>Enhanced performance and reliability</li>
+                </ul>
+            </td>
+            <td>2021 - 2023</td>
+        </tr>
+
+        <tr>
+            <td>Digital Agency Pro</td>
+            <td><img src="imgs/logo2.svg" alt="Logo2" width="100px"></td>
+            <td>Frontend Developer</td>
+            <td>
+                <ul>
+                    <li>Built user interfaces from mockups</li>
+                    <li>Implemented responsive designs</li>
+                    <li>Conducted code reviews</li>
+                </ul>
+            </td>
+            <td>2019 - 2020</td>
+        </tr>
+
+        <tr>
+            <td>Web Design Studio</td>
+            <td><img src="imgs/logo3.png" alt="Logo3" width="100px"></td>
+            <td>Junior Web Developer</td>
+            <td>
+                <ul>
+                    <li>Maintained existing websites</li>
+                    <li>Fixed bugs and implemented features</li>
+                    <li>Learned best practices</li>
+                </ul>
+            </td>
+            <td>2019 - 2020</td>
+        </tr>
+
+        <!-- Footer Row -->
+        <tfoot>
+            <tr>
+                <td colspan="5">Total Experience 5+ years in web development</td>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div>
+    <h2 style="color: rgb(67, 67, 191);">Contact Me</h2>
+    <p>Feel free to reach out to me using the form below. I'd love to hear from you!</p>
+    <form action="" method="post">
+        <!-- First Fieldset -->
+        <fieldset style="width: 30%;">
+            <legend>Personal Information</legend>
+
+            <label for="fn" style="display:inline-block; width:180px;">First Name:*</label>
+            <input type="text" id="fn" name="fn" required><br><br>
+
+            <label for="ln" style="display:inline-block; width:180px;">Last Name:*</label>
+            <input type="text" id="ln" name="ln" required><br><br>
+
+            <label for="Email" style="display:inline-block; width:180px;">Email Address:*</label>
+            <input type="email" id="Email" name="Email" required><br><br>
+
+            <label for="Phone" style="display:inline-block; width:180px;">Phone Number:</label>
+            <input type="tel" id="Phone" name="Phone"><br><br>
+
+            <label for="Date" style="display:inline-block; width:180px;">Preferred Meeting Date:</label>
+            <input type="date" id="Date" name="Date"><br><br>
+
+            <label for="Time" style="display:inline-block; width:180px;">Best Time to Contact:</label>
+            <input type="time" id="Time" name="Time"><br>
+        </fieldset>
+
+        <br>
+        <!-- Second Fieldset -->
+        <fieldset style="width: 30%;">
+            <legend>Project Details</legend>
+
+            <label for="Type" style="display:inline-block; width:180px;">Project Type:*</label>
+            <input type="text" name="Type" id="Type" required><br><br>
+
+            <label for="Description" style="display:inline-block; width:180px;">Project Description:*</label>
+            <input type="text" name="Description" id="Description" required><br><br>
+
+            <p >Budget Range:</p>
+            <input type="radio" name="Range1" id="Range1" value="Under $5,000">
+            <label for="Range1">Under $5,000</label><br>
+            <input type="radio" name="Range1" id="Range2" value="$5,000 - $10,000">
+            <label for="Range2">$5,000 - $10,000</label><br>
+            <input type="radio" name="Range1" id="Range3" value="$10,000 - &25,000">
+            <label for="Range3">$10,000 - &25,000</label><br>
+            <input type="radio" name="Range1" id="Range4" value="Over $25,000">
+            <label for="Range4">Over $25,000</label><br><br>
+
+            <p>Services Required(Check all that apply):</p>
+            <input type="checkbox" name="Check1" id="Check1" value="UI/UX Design">
+            <label for="Check1">UI/UX Design</label><br>
+            <input type="checkbox" name="Check2" id="Check2" value="Frontend Developer">
+            <label for="Check2">Frontend Developer</label><br>
+            <input type="checkbox" name="Check3" id="Check3" value="Backend Developer">
+            <label for="Check3">Backend Developer</label><br>
+            <input type="checkbox" name="Check4" id="Check4" value="Hosting & Development">
+            <label for="Check4">Hosting & Development</label><br>
+            <input type="checkbox" name="Check5" id="Check5" value="Maintenance & Support">
+            <label for="Check5">Maintenance & Support</label><br><br>
+
+            <label for="aboutMe">How did you hear about me?</label><br><br>
+            <select name="aboutMe" id="aboutMe">
+                <option value="Select source">--Select source--</option>
+            </select>
+        </fieldset><br>
+        
+        <button type="submit" style="background-color: rgb(99, 195, 247); color: white;">Send Message</button>
+        <button type="reset" style="background-color: rgb(138, 2, 2); color: white;">Clear Form</button>
+    </form>
+    </div>
+</body>
+
+</html>
